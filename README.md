@@ -2,12 +2,12 @@
 To document unix shortcut commands
 
 ## General
-Shortcut | Description
---- | ---
-`shift + cmd + 4` | Save a selected area as a screenshot to the desktop
-`shift + cmd + .` | Show dotfiles in directory (must be in finder)
+Description | Shortcut | Notes
+--- | --- | ---
+Save a selected area as a screenshot to the desktop | `shift + cmd + 4` | 
+Show dotfiles in directory (must be in finder) | `shift + cmd + .` | Only persists for window session
 
 ## Command line
-Shortcut | Description
+Description | Command
 --- | ---
-`$ defaults write com.apple.Finder AppleShowAllFiles true` <br/> `$ killall Finder` | Show dotfiles                                         
+Show dotfiles | `$ defaults write com.apple.Finder AppleShowAllFiles true` <br/> `$ killall Finder` |                                         
