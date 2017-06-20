@@ -10,4 +10,4 @@ Show dotfiles in directory (must be in finder) | `shift + cmd + .` | Only persis
 ## Command line
 Description | Command
 --- | ---
-Show dotfiles | `$ defaults write com.apple.Finder AppleShowAllFiles true` <br/> `$ killall Finder` |                                         
+Show dotfiles | `defaults write com.apple.Finder AppleShowAllFiles true` <br/> `killall Finder` |                                         
