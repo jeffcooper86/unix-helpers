@@ -10,5 +10,5 @@ Show dotfiles in directory (must be in finder) | `shift + cmd + .` | Only persis
 ## Command line
 Description | Command
 --- | ---
-Move Screenshot Directory | `defaults write com.apple.screencapture location [location]` <br/> `killall SystemUIServer` | 
+Move Screenshot Directory | `defaults write com.apple.screencapture location [path/to/location]` <br/> `killall SystemUIServer` | 
 Show dotfiles | `defaults write com.apple.Finder AppleShowAllFiles true` <br/> `killall Finder` |                                         
